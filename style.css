@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Alegreya Sans', sans-serif, monospace;
+}
+
+.home-section{
+    background-image: url(./images/bg-sec1img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+.home-section .home-text{
+    padding-top: 7rem;
+    text-align: center;
+}
+.home-section .home-text h1{
+    font-family: 'Alegreya', serif , monospace;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.home-section .home-text p{
+    font-size: 24px;
+    margin-bottom: 40px;
+    color: #ccc;
+}
+.home-section .home-text .home-btn1{
+    padding: 15px 20px;
+    border: none;
+    color: white;
+    background-color: #8e7754;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.home-section .home-text .home-btn2{
+    padding: 15px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+}
+ /******************************section2***************************/
+ .about-section .about-section-img{
+    width: 40vw;
+    height: 70vh;
+    margin: 10px;
+    padding: 50px;
+    display: inline-block;
+ }
+ .about-section .about-section-img img{
+    height: 100%;
+    width: 100%;
+ }
+ .about-section .about-section-text{
+   display: inline-block; 
+   width: 48vw;
+    margin-top: 9vh;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+ }
+ .about-section .about-section-text h2{
+    font-family: 'Alegreya', serif , monospace;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 10px;
+ }
+ .about-section .about-section-text p{
+    color: #686868;
+    font-size: 18px;
+    padding: 10px 20px;
+ }
+ .about-section .about-section-text ul{
+    list-style: disc;
+    font-size: 28px;
+    color: #686868;
+    float: left;
+    padding: 10px;
+ }
+ .about-section .about-section-text ul li{
+    margin-bottom: 15px;
+    overflow: hidden;
+ }
+ .about-section .about-section-text ul li p{
+    float: left;
+    font-size: 20px;
+ }
+ .about-section .about-section-text ul li .icons{
+    border: 1px solid #686868;
+    color: #8e7754;
+    border-radius: 50%;
+    float: left;
+ }
+ /******************************section3***********************/
+ .ourOffer-section{
+    background-color: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
+ }
+ .ourOffer-section .ourOffer-section-text{
+    text-align: center;
+    width: 45vw;
+    margin-top: 15vh;
+    float: left;
+    padding: 25px 40px;
+ }
+ .ourOffer-section .ourOffer-section-text h2{
+    padding: 15px;
+    font-size: 25px;
+ }
+ .ourOffer-section .ourOffer-section-text p{
+    padding: 20px 35px;
+    font-size: 18px;
+    color: #686868;
+ }
+ .ourOffer-section .ourOffer-section-img{
+    width: 40vw;
+    height: 70vh;
+    padding: 60px;
+    float: right;
+ }
+ .ourOffer-section .ourOffer-section-img img{
+    width: 100%;
+    height: 100%;
+ }
+ /***********************************section4********************/
+ .gallery-section .gallery-section-text{
+    height: 10vh;
+    text-align: center;
+    padding-top: 3rem;
+ }
+ .gallery-section .gallery-section-text h2{
+    font-size: 25px;
+ }
+ .gallery-section .gallery-section-text p{
+    padding-top: 15px;
+    font-size: 18px;
+    color: #686868;
+ }
+ .gallery-section .gallery-section-imgs-section .gallery-section-img{
+    width: 32vw;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+    padding-bottom: 30px;
+ }
+ .gallery-section .gallery-section-imgs-section .gallery-section-img h3{
+    padding-bottom: 10px;
+ }
+ .gallery-section .gallery-section-imgs-section .gallery-section-img p{
+    padding: 10px 40px;
+    font-size: 18px;
+    color: #686868;
+ }
+ .gallery-section .gallery-section-imgs-section .gallery-section-img .gallery-section-img-box{
+    padding: 20px 40px;
+ }
+ .gallery-section .gallery-section-imgs-section .gallery-section-img .gallery-section-img-box img{
+    width: 100%;
+ }
+/*************************section5*************************/
+.blog-section{
+   width: 100%;
+   background-color: #f8f8f8;
+   overflow: hidden;
+}
+.blog-section .blog-section-text{
+   width: 45vw;
+   float: left;
+   text-align: center;
+   margin: 50px 10px;
+   padding: 40px;
+}
+.blog-section .blog-section-text h2{
+   font-family: 'Alegreya', serif , monospace;
+    color: black;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.blog-section .blog-section-text p{
+   color: #686868;
+    font-size: 18px;
+    padding: 20px 30px;
+}
+.blog-section .blog-section-text .blog-pp-text{
+   text-align: left;
+}
+.blog-section .blog-section-text ul{
+   list-style: disc;
+    font-size: 28px;
+    color: #686868;
+    float: left;
+    padding: 15px;
+}
+.blog-section .blog-section-text ul li{
+   margin-bottom: 15px;
+   font-size: 32px;
+   overflow: hidden;
+}
+.blog-section .blog-section-text ul li .blog-p-text{
+   padding: 5;
+}
+.blog-section .blog-section-text ul li .blog-icons{
+   background-color: #8e7754;
+    color: white;
+    border-radius: 50%;
+    float: left;
+}
+.blog-section .blog-section-text ul li p{
+   float: left;
+   font-size: 20px;
+}
+.blog-section .blog-section-iframe{
+   width: 35vw;
+   margin: 50px 10px;
+   float: left;
+   height: 70vh;
+   padding: 15px;
+}
+.blog-section .blog-section-iframe iframe{
+   width: 100%;
+   height: 100%;
+}
+/***************************last section***************/
+.contact-section{
+   background-color: #403d38;
+   color: #686868;
+   overflow: hidden;
+}
+.contact-section .container{
+   margin: 20px 30px;
+}
+.contact-section .aboutus-section{
+   width: 25%;
+   float: left;
+   font-size: 23px;
+   line-height: 1.86em;
+}
+.contact-section .aboutus-section h3{
+   color: #fff;
+}
+.contact-section .wearespecial-section{
+   width: 25%;
+   font-size: 23px;
+   float: left;
+}
+.contact-section .wearespecial-section h3{
+   color: #fff;
+}
+.contact-section .wearespecial-section ul{
+   list-style-type: disc;
+   font-size: 16px;
+   float: left;
+   padding: 15px;
+}
+.contact-section .wearespecial-section ul li{
+   margin-bottom: 15px;
+   font-size: 23px;
+   overflow: hidden;
+}
+.contact-section .wearespecial-section ul li i{
+   float: left;
+}
+.contact-section .openhours-section{
+   width: 25%;
+   font-size: 23px;
+   float: left;
+}
+.contact-section .openhours-section h3{
+   color: #fff;
+}
+.contact-section .openhours-section ul{
+   list-style-type: disc;
+   font-size: 16px;
+   float: left;
+   padding: 15px;
+}
+.contact-section .openhours-section ul li{
+   margin-bottom: 15px;
+   font-size: 23px;
+   overflow: hidden;
+}
+.contact-section .openhours-section ul li i{
+   float: left;
+}
+.contact-section .contactus-section{
+   width: 25%;
+   font-size: 23px;
+   float: left;
+}
+.contact-section .contactus-section h3{
+   color: #fff;
+}
+.contact-section .contactus-section ul{
+   list-style-type: disc;
+   font-size: 16px;
+   float: left;
+   padding: 15px;
+}
+.contact-section .contactus-section ul li{
+   margin-bottom: 15px;
+   font-size: 23px;
+   overflow: hidden;
+}
+.contact-section .contactus-section ul li a{
+   float: left;
+   font-size: 20px;
+   color: #686868;
+   text-decoration: none;
+}
+.contact-section .contactus-section ul li i{
+   float: left;
+}
+.contact-section .contactus-section ul li a:hover{
+   color: white;
+   transition: 2ms ease;
+}
+/************************footer************************/
+.footer{
+   background-color: #353330;
+   text-align: center;
+   font-size: 16px;
+   color: #686868;
+   padding: 10px;
+}
+.footer .footer-social{
+   text-align: center;
+   padding: 15px;
+}
+.footer ul{
+   display: inline-block;
+   list-style-type: disc;
+   overflow: hidden;
+}
+.footer ul li{
+   float: left;
+}
+.footer ul li i {
+   background-color: #403d38;
+   border-radius: 50%;
+   font-size: 32px;
+   cursor: pointer;
+}
